@@ -1,0 +1,134 @@
+.bgContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.commentsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 550px;
+}
+
+.line {
+  border: 1px solid #dee8e3;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.commentsInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.appHeading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+.description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  order: 1;
+}
+.nameInput {
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+.commentInput {
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+.addButton {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  border-radius: 4px;
+  border: none;
+  padding: 16px 8px;
+  min-width: 60px;
+  align-self: flex-start;
+  outline: none;
+  cursor: pointer;
+  margin-top: 16px;
+}
+.image {
+  width: 280px;
+  height: 200px;
+}
+.heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+.commentCount {
+  text-align: center;
+  color: #ffffff;
+  background-color: #0284c7;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-right: 4px;
+}
+.commentsList {
+  padding-left: 0px;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  /* .commentsContainer
+ {
+     margin-top: 96px;
+ }    */
+
+  .commentsContainer {
+    width: 80%;
+    max-width: 1140px;
+  }
+  .commentsInputs {
+    flex-direction: row;
+  }
+  .appHeading {
+    font-size: 56px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+  .form {
+    width: 28%;
+    min-width: 300px;
+    order: 0;
+  }
+
+  .image {
+    width: 380px;
+    height: 300px;
+  }
+}
